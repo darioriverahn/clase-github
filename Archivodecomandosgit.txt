@@ -63,8 +63,6 @@ NOTAS GENERALES
 ----------------------------------------------------------------------
 1)Fork: Crea una nueva versión del proyecto al que quiero colaborar dentro de github
 
-<<<<<<< HEAD
-1--cambio desde la rama master1
-=======
-1--cambio desde la rama testeo
->>>>>>> testeo
+
+1--cambio desde la rama master
+
