@@ -35,8 +35,11 @@ Crear un archivo
 2.git add<nombrearchivo> o git add .
 3.git commit -m <"Descripcion del cambio entre comillas">
 
-Creacion de Ramas
+Creacion de Rama
 1. git branch <nombredelarama>
+
+Agregar una rama a la cuenta git
+1. git push origin <nombredelarama>
 
 Moverte a una rama a otra
 1.git checkout <nombredelarama>
