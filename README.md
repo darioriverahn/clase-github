@@ -1,7 +1,7 @@
 
 COMANDOS
 ----------------------------------------------------------------------
-Una vez instalado git, debes configurarlo:
+Una vez instalado git, debes configurar lo siguiente
 
 git config --global user.name  "xxxxxxxxxxxx"
 git config --global user.email "xxxxxxxxxxx"
