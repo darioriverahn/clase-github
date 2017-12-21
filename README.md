@@ -1,5 +1,5 @@
 *********************************COMANDOS****************************************
-Una vez instalado git, debes configurarlo:
+Una vez instalado git, debes configurar lo siguiente:
 
 git config --global user.name "ddriverahn"
 git config --global user.email "ddriverahn@ggg.com"
