@@ -37,6 +37,7 @@ TAREAS:
 1.touch <nombrearchivo>
 2.git add<nombrearchivo> o git add .
 3.git commit -m <"Descripcion del cambio entre comillas">
+4.git push origin master 
 
 #Creacion de Ramas
 1. git branch <nombredelarama>
