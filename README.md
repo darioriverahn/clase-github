@@ -41,6 +41,12 @@ Creacion de Ramas
 Moverte a una rama a otra
 1.git checkout <nombredelarama>
 
+Borrar una rama local
+1. git branch -d <nombredelarama>
+
+Borrar una rama local
+1. git push origin:<nombredelarama>
+
 Agregar una rama al archivo master o principal
 1.git merge <nombredelarama>
 
