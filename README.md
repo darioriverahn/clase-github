@@ -30,13 +30,13 @@ TAREAS:
 1. crear el directorio mkdir <nombredeproyecto>
 2. ejecutar el comando git init para instanciar el repositorio
 3. ejecutar el comando git remote add <url en git del proyecto>(si no presenta msg esta todo bien)
-4. ejecutar el comando git pull origin master (se empieza a descargar el proyecto y listo a trabajar)
+4. ejecutar el comando git pull origin <nombredelarama(master, xx, yy)> (se empieza a descargar el proyecto y listo a trabajar)
 
 #Crear un archivo
 1.touch <nombrearchivo>
 2.git add<nombrearchivo> o git add .
 3.git commit -m <"Descripcion del cambio entre comillas">
-4.git push origin master 
+4.git push origin <nombredelarama(master, xx, yy)>
 
 #Creacion de Ramas
 1. git branch <nombredelarama>
