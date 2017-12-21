@@ -1,4 +1,6 @@
-----------------------------------COMANDOS------------------------------------
+
+COMANDOS
+----------------------------------------------------------------------
 Una vez instalado git, debes configurarlo:
 
 git config --global user.name  "xxxxxxxxxxxx"
@@ -11,6 +13,7 @@ Leer dicha llave para copiarla en GitHub
 cat ~/.ssh/id_rsa.pub 
 
 Arrancando el proyecto
+
 git init:							Crea un nuevo repositorio(en el directorio que estamos ubicados)
 touch:								Crear un nuevo archivo(README2)			
 git add<nombrearchivo> o git add .:	Adiciona el archivo creado(README2)
