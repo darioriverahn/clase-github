@@ -16,8 +16,8 @@ COMANDOS GENERALES
 ----------------------------------------------------------------------
 1. git status		(Estado del repositorio sincronizado)
 2. git pull 	--rebase
-2. git rebase 	--skip
-3  git merge 	--abort
+3. git rebase 	--skip
+4. git merge 	--abort
 
 ----------------------------------------------------------------------
 PROCESOS EN GITHUB
@@ -61,5 +61,6 @@ Agregar una rama al archivo master o principal
 
 NOTAS GENERALES
 ----------------------------------------------------------------------
-
 1)Fork: Crea una nueva versión del proyecto al que quiero colaborar dentro de github
+
+1--cambio desde la rama de testeo
