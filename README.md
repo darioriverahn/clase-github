@@ -1,6 +1,6 @@
-
-COMANDOS
+MIS PRIMEROS PASOS POR GITHUB
 ----------------------------------------------------------------------
+<<<<<<< HEAD
 Una vez instalado git, debes configurar lo siguiente
 
 git config --global user.name  "xxxxxxxxxxxx"
@@ -69,3 +69,5 @@ git remote remove origin
 NOTAS:
 
 1)Fork: me crea una nueva versión del proyecto al que quiero colaborar dentro de github
+=======
+>>>>>>> testeo
