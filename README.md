@@ -18,7 +18,7 @@ git init:							Crea un nuevo repositorio(en el directorio que estamos ubicados)
 touch:								Crear un nuevo archivo(README2)			
 git add<nombrearchivo> o git add .:	Adiciona el archivo creado(README2)
 git commit -m <msg>:
-git remote add origin:  			Trae los archivos a local desde la cuenta git(url de git)
+git remote add origin:  			Sincroniza el repositorio local con el de la cuenta de git
 git pull origin master: 			Prepara para llevar a cuenta git del ordenador todos los archivos locales
 git push origin master:				Envia todos los archivos preparados a la cuenta git
 git status:							estado del repositorio configurado
@@ -54,6 +54,8 @@ $ git branch -d <nombredelarama>
 #BORRAR BRANCH REMOTO
 $ git push origin :the_remote_branch
 
+#Para dar inicio a nuevo comando
+:wq + enter
 
 NOTAS:
 
