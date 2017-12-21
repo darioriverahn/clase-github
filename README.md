@@ -55,7 +55,7 @@ $ git branch -d <nombredelarama>
 $ git push origin :the_remote_branch
 
 #Sincroniza el repositorio local con el de la cuenta de git
-git remote add origin
+git remote add origin <urlderepositorioenlacuentadegit>
 
 #Ver si estan sincronizados los repositorios
 git remote -v
