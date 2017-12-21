@@ -1,39 +1,39 @@
-*********************************COMANDOS****************************************
+CONFIGURACION
+----------------------------------------------------------------------
 Una vez instalado git, debes configurar lo siguiente:
 
-git config --global user.name "ddriverahn"
-git config --global user.email "ddriverahn@ggg.com"
+1. git config --global user.name "ddriverahn"
+2. git config --global user.email "ddriverahn@ggg.com"
 
 Generando tú public Key:
-ssh-keygen
+1. ssh-keygen
 
 Leer dicha llave para copiarla en GitHub
-cat ~/.ssh/id_rsa.pub 
+1. cat ~/.ssh/id_rsa.pub 
 
-Arrancando el proyecto
-git init:		crea un nuevo repositorio(en el directorio que estamos ubicados)
-touch:			Crear un nuevo archivo(README2)			
-git add<nombrearchivo> o git add . :	Adiciona el archivo creado(README2)
-git commit -m "Este el primer archivo desde mi computadora"
-git remote add origin:  Trae los archivos a local desde la cuenta git(url de git)
-git pull origin master: Prepara para llevar a cuenta git del ordenador todos los archivos locales
-git push origin master:
-git status:		estado del repositorio configurado
+
+COMANDOS GENERALES
+----------------------------------------------------------------------
+1. git status:		estado del repositorio configurado
 
 
 ----------------------------------------------------------------------
-TAREAS: 
+PROCESOS EN GITHUB
+----------------------------------------------------------------------
 
 Clonar un proyecto
-1. crear el directorio mkdir <nombredeproyecto>
-2. ejecutar el comando git init para instanciar el repositorio
-3. ejecutar el comando git remote add <yrl en git del proyecto>(si no presenta msg esta todo bien)
-4. ejecutar el comando git pull origin master (se empieza a descargar el proyecto y listo a trabajar)
+1. mkdir <nombredeproyecto> (crear el directorio)
+2. git init para instanciar el repositorio
+3. git remote add <Url en git del proyecto>(si no presenta msg esta todo bien)
+4. git pull origin master (se empieza a descargar el proyecto y listo a trabajar)
+
+Iniciar el directorio
+1. git init     Iniciar el nuevo repositorio(en el directorio que hemos creado anteriormente)
 
 Crear un archivo
-1.touch <nombrearchivo>
-2.git add<nombrearchivo> o git add .
-3.git commit -m <"Descripcion del cambio entre comillas">
+1. touch <nombrearchivo>
+2. git add<nombrearchivo> o git add .
+3. git commit -m <"Descripcion del cambio entre comillas">
 
 Creacion de Rama
 1. git branch <nombredelarama>
@@ -42,23 +42,22 @@ Agregar una rama a la cuenta git
 1. git push origin <nombredelarama>
 
 Moverte a una rama a otra
-1.git checkout <nombredelarama>
+1. git checkout <nombredelarama>
 
 Borrar una rama local
-1. git branch -d <nombredelarama>
+1. git checkout master
+2. git branch -d <nombredelarama>
 
 Borrar una rama local
-1. git push origin:<nombredelarama>
+1. git checkout master
+2. git push origin:<nombredelarama>
 
 Agregar una rama al archivo master o principal
-1.git merge <nombredelarama>
+1. git checkout master
+2. git merge <nombredelarama>
 
 
----------------------al haber un tipo de error----------------------
-git fetch --all
-git reset --hard origin/master
-git checkout master
+NOTAS GENERALES
+----------------------------------------------------------------------
 
-NOTAS:
-
-1)Fork: me crea una nueva versión del proyecto al que quiero colaborar dentro de github
+1)Fork: Crea una nueva versión del proyecto al que quiero colaborar dentro de github
