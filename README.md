@@ -1,4 +1,4 @@
-*********************************COMANDOS****************************************
+----------------------------------COMANDOS------------------------------------
 Una vez instalado git, debes configurarlo:
 
 git config --global user.name  "xxxxxxxxxxxx"
