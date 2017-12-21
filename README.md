@@ -33,7 +33,7 @@ Clonar un proyecto
 Crear un archivo
 1.touch <nombrearchivo>
 2.git add<nombrearchivo> o git add .
-3. git commit -m <"Descripcion del cambio entre comillas">
+3.git commit -m <"Descripcion del cambio entre comillas">
 
 Creacion de Ramas
 1. git branch <nombredelarama>
