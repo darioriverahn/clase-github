@@ -14,9 +14,10 @@ Leer dicha llave para copiarla en GitHub
 
 COMANDOS GENERALES
 ----------------------------------------------------------------------
-1. git status:		Estado del repositorio sincronizado
-2. git pull --rebase
-2. git rebase --skip
+1. git status		(Estado del repositorio sincronizado)
+2. git pull 	--rebase
+2. git rebase 	--skip
+3  git merge 	--abort
 
 ----------------------------------------------------------------------
 PROCESOS EN GITHUB
