@@ -36,6 +36,7 @@ Crear un archivo
 1. touch <nombrearchivo>
 2. git add<nombrearchivo> o git add .
 3. git commit -m <"Descripcion del cambio entre comillas">
+4. git push origin <nombredelarama>
 
 Creacion de Rama
 1. git branch <nombredelarama>
@@ -63,4 +64,4 @@ NOTAS GENERALES
 ----------------------------------------------------------------------
 1)Fork: Crea una nueva versión del proyecto al que quiero colaborar dentro de github
 
-1--cambio desde la rama testeo2
+1--cambio desde la rama testeo
