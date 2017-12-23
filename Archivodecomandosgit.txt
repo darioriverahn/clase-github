@@ -36,23 +36,27 @@ Eliminar un archivo
 3. git push origin <nombredelarama>
 
 
-Creacion de Rama
+Creacion de Rama 
+(1forma)
 1. git branch <nombredelarama>
 2. git checkout <nombreramacreada>
 3. git push origin <nombredelarama> (agregar una rama a la cuenta git)
 
+(2forma)
+1. git branch <nombredelarama>
+
 Moverte a una rama a otra
-1. git checkout <nombredelarama>
+1. git checkout -b <nombredelarama>
 
 Borrar una rama local
 1. git checkout master
-2. git branch -d <nombredelarama>
+2. git branch -D <nombredelarama>
 
 Borrar una rama de cuenta git
 1. git checkout master
 2. git push origin :<nombredelarama>
 
-Agregar una rama al archivo master o principal
+Agregar los cambios de una rama al archivo master o principal
 1. git checkout master
 2. git merge <nombredelarama>
 
