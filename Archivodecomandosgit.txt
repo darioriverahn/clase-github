@@ -16,13 +16,13 @@ PROCESOS EN GITHUB
 ----------------------------------------------------------------------
 
 Clonar un proyecto
-1. mkdir <nombredeproyecto> (crear el directorio)
+1. Crear mkdir <nombredeproyecto>)
 2. git init para instanciar el repositorio
-3. git remote add <Url en git del proyecto>(si no presenta msg esta todo bien)
-4. git pull origin master (se empieza a descargar el proyecto y listo a trabajar)
+3. git remote add origin <Urldecuentagit>(sincronizar local-remote)
+4. git pull origin master(se empieza a descargar) ó git push origin master (para subir el proyecto a cuenta de git)
 
-Iniciar el directorio
-1. git init     Iniciar el nuevo repositorio(en el directorio que hemos creado anteriormente)
+Eliminar el sincronizar local-remote
+1. git remote remove origin
 
 Crear un archivo
 1. touch <nombrearchivo> + extensión
@@ -95,4 +95,4 @@ NOTAS GENERALES
 3)Milestones: grupos de issues que aplican para un proyecto, caracteristica o periodo de tiempo.
 4)Labels: organizar diferentes tipos de problemas
 5)Tags anotadas: son puntos específicos marcados en un commit en la historia de nuestro proyecto y se usan para marcar alguna versión
-6)Tags Ligeras: otra forma de craer tags. son más simples y con poca información.
+6)Tags ligeras: otra forma de craer tags. son más simples y con poca información.
