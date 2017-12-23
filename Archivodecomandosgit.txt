@@ -19,7 +19,7 @@ COMANDOS GENERALES
 3. git rebase 	--skip
 4. git merge 	--abort
 
-
+----------------------------------------------------------------------
 PROCESOS EN GITHUB
 ----------------------------------------------------------------------
 
@@ -51,7 +51,7 @@ Borrar una rama local
 1. git checkout master
 2. git branch -d <nombredelarama>
 
-Borrar una rama local
+Borrar una rama de cuenta git
 1. git checkout master
 2. git push origin:<nombredelarama>
 
@@ -59,18 +59,28 @@ Agregar una rama al archivo master o principal
 1. git checkout master
 2. git merge <nombredelarama>
 
+Corregir un mensaje en commit
+1. git commit --amend -m <"mensage">
+2. git push origin master -f (fuerza a que suban los cambios del comentario)
+
+Crear Tags anotadas
+1. git tag -a <versión(1.0,1.1,1.2 etc)> -m <"mensaje"> (estas son más recomendadas)
+
+Crear Tags anotadas
+1. git tag -a <nombreetiqueta>
+
+Especificación de Tag
+1. git tag -a <versión(1.0,1.1,1.2 etc)> -m <"mensaje"> <codigo sha del commit>
+
 
 NOTAS GENERALES
 ----------------------------------------------------------------------
 1)Fork: Crea una nueva versión del proyecto al que quiero colaborar dentro de github
+2)Issues: son una forma de continuar, mejorar o solucionar un error en repositorio
+3)Milestones: grupos de issues que aplican para un proyecto, caracteristica o periodo de tiempo.
+4)Labels: organizar diferentes tipos de problemas
+5)Tags anotadas: son puntos específicos marcados en un commit en la historia de nuestro proyecto y se usan para marcar alguna versión
+6)Tags Ligeras: otra forma de craer tags. son más simples y con poca información.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-1--cambio desde la rama master
-=======
-1--cambio desde la rama testeo
->>>>>>> testeo
-=======
-1--cambio desde la rama testeo
->>>>>>> testeo
+1--master
