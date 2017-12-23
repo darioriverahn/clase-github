@@ -66,18 +66,19 @@ Fusionar una rama a la rama master
 2. git merge <nombredelarama>
 3 git push origin master (para que los cambios afecten a la cuenta de git)
 
-Corregir un mensaje en commit
+Corregir un mensaje en commit ya ejecutado
 1. git commit --amend -m <"mensage">
 2. git push origin master -f (fuerza a que suban los cambios del comentario)
 
 Crear Tags anotadas
 1. git tag -a <versión(1.0,1.1,1.2 etc)> -m <"mensaje"> (estas son más recomendadas)
 
-Crear Tags anotadas
-1. git tag -a <nombreetiqueta>
+Crear Tags ligeras
+1. git tag <versión(1.0,1.1,1.2 etc)>
 
-Especificación de Tag
+Crear Tag a commit ya realizado
 1. git tag -a <versión(1.0,1.1,1.2 etc)> -m <"mensaje"> <codigo sha del commit>
+2. git push origin <versión(1.0,1.1,1.2 etc)> ó todas de un solo git push origin --tags
 
 
 COMANDOS GENERALES
