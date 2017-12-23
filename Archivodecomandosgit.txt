@@ -97,3 +97,4 @@ NOTAS GENERALES
 4)Labels: organizar diferentes tipos de problemas
 5)Tags anotadas: son puntos específicos marcados en un commit en la historia de nuestro proyecto y se usan para marcar alguna versión
 6)Tags ligeras: otra forma de craer tags. son más simples y con poca información.
+7)WorkFlow: flujos de trabajo como proyectos propios, proyectos en equipo y con terceros
