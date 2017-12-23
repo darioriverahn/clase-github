@@ -45,6 +45,10 @@ Creacion de Rama
 (2forma)
 1. git branch <nombredelarama>
 
+Enviar cambios de rama a cuenta de GitGub
+1. git add -A
+2. git push origin <nombrederama>
+
 Moverte a una rama a otra
 1. git checkout -b <nombredelarama>
 
@@ -56,9 +60,10 @@ Borrar una rama de cuenta git
 1. git checkout master
 2. git push origin :<nombredelarama>
 
-Agregar los cambios de una rama al archivo master o principal
+Fusionar una rama a la rama master
 1. git checkout master
 2. git merge <nombredelarama>
+3 git push origin master (para que los cambios afecten a la cuenta de git)
 
 Corregir un mensaje en commit
 1. git commit --amend -m <"mensage">
@@ -89,4 +94,4 @@ NOTAS GENERALES
 3)Milestones: grupos de issues que aplican para un proyecto, caracteristica o periodo de tiempo.
 4)Labels: organizar diferentes tipos de problemas
 5)Tags anotadas: son puntos específicos marcados en un commit en la historia de nuestro proyecto y se usan para marcar alguna versión
-6)Tags ligeras: otra forma de craer tags. son más simples y con poca información.
+6)Tags Ligeras: otra forma de craer tags. son más simples y con poca información.
