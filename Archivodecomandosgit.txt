@@ -47,7 +47,8 @@ Creacion de Rama
 
 Enviar cambios de rama a cuenta de GitGub
 1. git add -A
-2. git push origin <nombrederama>
+2. git commit -m <"mensajedecambio">
+2. git push origin master
 
 Moverte a una rama a otra
 1. git checkout -b <nombredelarama>
