@@ -80,6 +80,13 @@ Crear Tag a commit ya realizado
 1. git tag -a <versión(1.0,1.1,1.2 etc)> -m <"mensaje"> <codigo sha del commit>
 2. git push origin <versión(1.0,1.1,1.2 etc)> ó todas de un solo git push origin --tags
 
+Proceso de fusión con cambios en la misma linea
+ de código
+1. git fetch origin
+2. borramos el codigo manualmente
+3. git add -A
+4. git commit -m <"mensaje">
+5. git push origin master
 
 COMANDOS AL TRABAJAR EN REPOSITORIOS DE EQUIPO
 ----------------------------------------------------------------------
