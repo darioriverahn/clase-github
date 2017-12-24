@@ -81,6 +81,11 @@ Crear Tag a commit ya realizado
 2. git push origin <versión(1.0,1.1,1.2 etc)> ó todas de un solo git push origin --tags
 
 
+COMANDOS AL TRABAJAR EN REPOSITORIOS DE EQUIPO
+----------------------------------------------------------------------
+ git fetch origin baja de repositorio remoto a la rama intermedia los cambios)
+ git merge origin/master
+
 COMANDOS GENERALES
 ----------------------------------------------------------------------
 1. git status			(Estado del repositorio sincronizado)
@@ -98,3 +103,5 @@ NOTAS GENERALES
 5)Tags anotadas: son puntos específicos marcados en un commit en la historia de nuestro proyecto y se usan para marcar alguna versión
 6)Tags ligeras: otra forma de craer tags. son más simples y con poca información.
 7)WorkFlow: flujos de trabajo como proyectos propios, proyectos en equipo y con terceros
+
+----
