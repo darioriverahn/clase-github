@@ -111,3 +111,4 @@ NOTAS GENERALES
 6)Tags ligeras: otra forma de craer tags. son más simples y con poca información.
 7)WorkFlow: flujos de trabajo como proyectos propios, proyectos en equipo y con terceros
 
+----
